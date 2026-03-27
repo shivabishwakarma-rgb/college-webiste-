@@ -1,0 +1,93 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background-color: #f2f2f2;
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+background-color: white;
+}
+
+.logo {
+background-color: orange;
+color: white;
+padding: 10px 20px;
+border-radius: 20px;
+font-weight: bold;
+}
+
+.menu a {
+margin: 10px;
+text-decoration: none;
+color: orange;
+font-weight: bold;
+}
+
+.menu a:hover {
+color: red;
+}
+
+.hero {
+background-image: url("college.jpg");
+background-size: cover;
+background-position: center;
+height: 300px;
+text-align: center;
+color: red;
+padding-top: 80px;
+}
+
+.hero h1 {
+font-size: 40px;
+}
+
+.hero button {
+background-color: red;
+color: yellow;
+padding: 15px 30px;
+border: none;
+border-radius: 25px;
+font-size: 20px;
+cursor: pointer;
+}
+
+.section {
+padding: 20px;
+}
+
+.section h2 {
+color: #333;
+}
+
+.course-btn {
+display: block;
+margin: 10px 0;
+background-color: red;
+color: white;
+border: none;
+padding: 10px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.footer {
+text-align: center;
+background-color: orange;
+color: white;
+padding: 15px;
+}
+
+@media (max-width: 768px) {
+.navbar {
+flex-direction: column;
+text-align: center;
+}
+
+.menu {
+    margin-top: 10px;
+}
+}
